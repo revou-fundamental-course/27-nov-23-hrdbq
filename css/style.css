@@ -1,0 +1,183 @@
+body {
+  background-color: #495e57;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f4ce14;
+}
+
+.logo {
+  flex: 1;
+  font-size: 1.5em;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.menu {
+  flex: 1;
+  flex-direction: column;
+}
+
+nav {
+  flex-direction: row;
+  display: flex;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+  display: block;
+  padding: 25px 24px;
+  text-decoration: none;
+  margin: 4px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #495e57;
+}
+
+nav li:hover {
+  background-color: #495e57;
+  color: white;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+main {
+  display: flex;
+  height: auto;
+}
+
+article {
+  background-color: white;
+  /* background-color: white;
+  flex: 1;
+  margin: 4px;
+  border-radius: 15px; */
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px;
+  width: auto;
+  border-radius: 15px;
+}
+
+.judul {
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid black; */
+}
+
+.iniHasil {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+}
+
+.off {
+  background-color: white;
+}
+
+input:focus {
+  background-color: white;
+}
+
+form {
+  padding: 12px;
+  margin: 12px;
+  /* border: 2px solid black; */
+}
+
+input {
+  width: 450px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 16px;
+  margin: 8px;
+  background-color: #f3f3f3;
+  border: 0;
+}
+
+input:focus {
+  background-color: #fff78a;
+}
+
+input::after {
+  border: none;
+}
+
+img {
+  height: auto;
+  width: 450px;
+  /* border: 2px solid black; */
+}
+
+aside {
+  flex: 1;
+  padding: 12px;
+  margin: 12px;
+  border-radius: 10px;
+  background-color: #495e57;
+}
+.kosong {
+  flex: 1;
+}
+button {
+  margin-top: 16px;
+  text-align: center;
+  height: 50px;
+  width: 450px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #f4ce14;
+}
+
+button:hover {
+  background-color: #f2be22;
+  border: 0;
+  color: #495e57;
+}
+
+button::after {
+  border: none;
+}
+
+.reset {
+  background-color: #ffeadd;
+  color: red;
+  border: 1px solid red;
+}
+
+.reset:hover {
+  background-color: red;
+  color: #ffeadd;
+  border: 1px solid red;
+}
+
+footer {
+  background-color: #f4ce14;
+  color: #994d1c;
+  height: px;
+  bottom: 0;
+  text-align: center;
+  padding: 25px 24px;
+}

@@ -1,0 +1,78 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Welcome To Katik</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <p>Welcome To Katik</p>
+        </div>
+        <ul class="menu">
+          <li><a href="#">Segitiga</a></li>
+          <li><a href="#">Kubus</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div class="judul"><h2>Hitung Luas Segitigas</h2></div>
+        <div class="img">
+          <img src="img/3991804788.jpg" />
+        </div>
+        <p>Masukan nilai Alas & Tinggi</p>
+        <form>
+          <input
+            id="base"
+            placeholder="Masukan nilai Alas..."
+          />
+          <input
+            id="height"
+            placeholder="Masukan nilai Tinggi..."
+          />
+          <button id="button" onclick="hitungLuas(event)" >Hitung</button>
+          <button type="reset" class="reset">Reset</button>
+        </form>
+        <div class="iniHasil" id="iniHasil" style="display: none">
+          <aside>
+            <label id="inputLuas">Hasil</label>
+            <label id="result">Hasil</label>
+          </aside>
+        </div>
+      </article>
+      <article>
+        <div class="judul"><h2>Hitung Keliling Segitiga</h2></div>
+        <div class="img">
+          <img src="IMG/1853786887.jpg" />
+        </div>
+        <p>Isi artikel...</p>
+        <form>
+          <input
+            id="one"
+            placeholder="Masukan Sisi 1..."
+          />
+          <input
+            id="two"
+            placeholder="Masukan Sisi 2..."
+          />
+          <input
+            id="three"
+            placeholder="Masukan Sisi 3..."
+          />
+          <button id="button2" onclick="hitungKeliling(event)">Hitung</button>
+          <button type="reset" class="reset">Reset</button>
+        </form>
+        <div class="iniHasil" id="iniHasil2" style="display: none">
+        <aside>
+          <label id="inputSisiSatu">Hasil</label>
+          <label id="result-keliling">Hasil</label>
+        </aside>
+      </article>
+    </main>
+    <footer>@2023 Hardiansyah, RevoU</footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
